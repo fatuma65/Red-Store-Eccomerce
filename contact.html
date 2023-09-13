@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products - Red store</title>
+        <link rel="stylesheet" href="red_store.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/02f0423708.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
+                </div>
+                    
+                <nav>
+                    <ul id="Menuitems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                            
+                    <img src="images/cart.png" width="30px" height="30px">
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </nav>
+            </div>
+        </div>
+<!--------contact page---------->
+        <section class="Contain">
+            <h1>GET IN TOUCH</h1><br>
+            <h2>ADDRESS</h2><br>
+            <h3>RedStore Eccomerce Business</h3>
+
+            
+        </section>
+
+<!----------footer-------->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download Our App</h3>
+                            <p>Download app for Androind and IOS mobile phone</p>
+                            <div class="app-logo">
+                                <img src="images/play-store.png">
+                                <img src="images/app-store.png">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="images/logo-white.png">
+                            <p>Our Purpose is to Sustainably make the pleasure and benefits of sports accessible to the many.</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li>Coupons</li>
+                                <li>Blog Post</li>
+                                <li>Return Policy</li>
+                                <li>Join Affiliate</li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <li>Facebok</li>
+                                <li>Instagram</li>
+                                <li>Twitter</li>
+                                <li>Youtube</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="Copyright">Copyright 2020 - Easy Tutorials</p>
+                </div>
+            </div>
+    
+
+<!---------------javascript for toggle menu----------->
+            <script>
+                var Menuitems = document.getElementById("Menuitems")
+
+                Menuitems.style.maxHeight = "0px"
+
+                function menutoggle(){
+                    if(Menuitems.style.maxHeight == "0px")
+                    {
+                        Menuitems.style.maxHeight ="200px"
+                    }
+                    else 
+                    {
+                        Menuitems.style.maxHeight = "0px"
+                    }
+                }
+            </script>
+<!--------Javascript for toggle form-------->
+ 
+            <script>
+
+                var Loginform = document.getElementById("Loginform");
+                var Regform = document.getElementById("Regform");
+                var Indicator = document.getElementById("Indicator");
+
+                function Register(){
+
+                    Regform.style.transform = "translateX(0px)";
+                    Loginform.style.transform = "translateX(0px)";
+                    Indicator.style.transform = "translateX(100px)";
+                }
+                function Login(){
+
+                    Regform.style.transform = "translateX(300px)";
+                    Loginform.style.transform = "translateX(300px)";
+                    Indicator.style.transform = "translateX(0px)";
+                }
+
+            </script>
+        </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
