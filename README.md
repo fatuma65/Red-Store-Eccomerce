@@ -1,4 +1,6 @@
-# Red-Store-Eccomerce
+
+# Red store eccomerce project
+>>>>>>> adding-readme
 Welcome to the Red store eccomerce website where you can shop for trendy clothes online! This website is built with HTML, CSS and Javascript.
 
 # Features
